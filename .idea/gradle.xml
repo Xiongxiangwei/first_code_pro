@@ -8,8 +8,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/01_http" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/file_save_io" />
+            <option value="$PROJECT_DIR$/myapplication" />
             <option value="$PROJECT_DIR$/sql_demo" />
           </set>
         </option>
