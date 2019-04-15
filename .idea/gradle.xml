@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/01_http" />
+            <option value="$PROJECT_DIR$/06_draw" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/file_save_io" />
             <option value="$PROJECT_DIR$/myapplication" />

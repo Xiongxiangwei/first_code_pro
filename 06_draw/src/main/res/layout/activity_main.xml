@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/tv_avatar"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:drawableLeft="@mipmap/png_0827"
+        android:textColor="@color/colorAccent"
+        android:text="Hello AvatarView!"
+        />
+
+    <TextView
+        android:id="@+id/tv_dash"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:drawableLeft="@mipmap/png_0831"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/colorPrimary"
+        android:text="Hello Dashboard!"/>
+    <TextView
+        android:id="@+id/tv_image_text"
+        android:gravity="center"
+        android:drawableLeft="@mipmap/png_0834"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/colorBlack"
+        android:text="Hello ImageTextView!"
+       />
+    <TextView
+        android:id="@+id/tv_pie"
+        android:drawableLeft="@mipmap/png_0821"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/colorRed"
+        android:text="Hello PieChart!"/>
+    <TextView
+        android:id="@+id/tv_sport"
+        android:drawableLeft="@mipmap/png_0830"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/colorBlue"
+        android:text="Hello SportsView!"/>
+</LinearLayout>
