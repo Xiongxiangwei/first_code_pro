@@ -1,1 +1,1 @@
-include ':app', ':sql_demo', ':file_save_io', ':myapplication', ':01_http', ':06_draw'
+include ':app', ':sql_demo', ':file_save_io', ':myapplication', ':01_http', ':06_draw', ':hendcoderdemo'

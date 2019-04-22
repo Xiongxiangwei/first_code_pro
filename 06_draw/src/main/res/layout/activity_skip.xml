@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".SkipActivity">
 
-    <com.code.first.a06_draw.view.AvatarView
+    <com.code.first.a06_draw.view.Myv
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 </android.support.constraint.ConstraintLayout>

@@ -50,6 +50,7 @@ public class AvatarView extends View {
         canvas.drawBitmap(mAvatar, PADDING, PADDING, paint);
         paint.setXfermode(null);
         canvas.restoreToCount(saved);
+
     }
 
     private Bitmap getAvatar(int width) {
