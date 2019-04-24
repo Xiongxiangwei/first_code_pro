@@ -4,7 +4,7 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.graphics.RectF;
+import android.graphics.Path;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
@@ -103,13 +103,32 @@ public class MyView extends View {
 //                400,400,
 //                500,500
 //        },textPaint);
-        RectF rectF2 = new RectF(100, 700, 600, 1200);
-        // 绘制背景矩形
-        mPaint.setColor(Color.BLUE);
-        canvas.drawRect(rectF2,mPaint);
+//        RectF rectF2 = new RectF(100, 700, 600, 1200);
+//        // 绘制背景矩形
+//        mPaint.setColor(Color.BLUE);
+//        canvas.drawRect(rectF2,mPaint);
+//
+//        // 绘制圆弧
+//        mPaint.setColor(Color.BLUE);
+//        canvas.drawArc(rectF2,180,90,true,mPaint);
 
-        // 绘制圆弧
-        mPaint.setColor(Color.BLUE);
-        canvas.drawArc(rectF2,180,90,true,mPaint);
+//        canvas.translate(mWidth / 2, mHeight / 2);  // 移动坐标系到屏幕中心
+//
+//        Path path = new Path();                     // 创建Path
+//
+//        path.lineTo(200, 200);                      // lineTo
+//
+//        path.setLastPoint(200,100);                 // setLastPoint
+//
+//        path.lineTo(200,0);                         // lineTo
+//
+//        canvas.drawPath(path, mPaint);              // 绘制Path
+        canvas.translate(mWidth / 2, mHeight / 2);  // 移动坐标系到屏幕中心
+
+        Path path = new Path();
+
+        path.addRect(-200, -200, 200, 200, Path.Direction.CCW);
+
+        canvas.drawPath(path,mPaint);
     }
 }
